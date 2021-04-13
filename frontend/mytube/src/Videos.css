@@ -1,0 +1,33 @@
+.videos {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 20px 20px;
+  padding-bottom: 0px;
+}
+.videos__video {
+  display: flex;
+  flex-wrap: wrap;
+}
+.videoCard {
+  margin: 10px;
+  width: 270px;
+}
+.videoCard :hover {
+  cursor: pointer;
+}
+.videoCard__info {
+  display: flex;
+}
+.Avatar {
+  margin-right: 10px;
+}
+.video__text > h4 {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 15px;
+}
+.video__text > p {
+  font-size: 14px;
+  color: gray;
+  margin-top: -15px;
+}
